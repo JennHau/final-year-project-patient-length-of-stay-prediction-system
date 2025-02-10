@@ -1,0 +1,17 @@
+.bar-chart-container {
+  display: flex; 
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  max-width: 950px; 
+  min-height: 400px;
+  padding: 10px; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow to the container */
+  margin-left: 5px !important; /* Move the container to the right */
+  border-radius: 20px !important;
+}
+
+ .bar-chart {
+    width: 100%; /* Ensure the chart takes up the full width of its container */
+    height: 400px; /* Set a specific height for the chart */
+    margin-right: 20px;
+  }

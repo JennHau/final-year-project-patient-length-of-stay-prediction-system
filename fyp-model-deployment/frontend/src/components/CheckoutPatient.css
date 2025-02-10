@@ -1,0 +1,52 @@
+/* CheckoutPatient.css */
+
+/* Container styling for the CheckoutPatient component */
+.checkout-container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* Table container styling */
+.table-wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Center all table content */
+.table-wrapper td, 
+.table-wrapper th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Specific column widths */
+.column-actions {
+    min-width: 50px;
+}
+
+.column-id {
+    min-width: 30px;
+}
+
+.column-facility {
+    min-width: 300px;
+}
+
+.column-date {
+    min-width: 50px;
+}
+
+.column-lengthofstay {
+    min-width: 50px;
+}
+
+/* Discharge button styling */
+.discharge-btn {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.checkout-pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; /* Space above the pagination */
+  }

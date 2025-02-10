@@ -1,0 +1,19 @@
+ .predicted-line-chart-container {
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    max-width: 750px; /* Set a maximum width for the container */
+    min-height: 470px;
+    padding: 10px; /* Add padding if necessary */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow to the container */
+    border-radius: 20px;
+    margin-left: 10px;
+    overflow: hidden;
+  }
+
+  .predicted-line-chart {
+    width: 100%; /* Ensure the chart takes up the full width of its container */
+    height: 470px; /* Set a specific height for the chart */
+    margin-left: 25px;
+    margin-bottom: -30px;
+  }

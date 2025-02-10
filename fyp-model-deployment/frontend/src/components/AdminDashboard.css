@@ -1,0 +1,51 @@
+ .dashboard-container {
+    max-width: 90%;
+    margin: 0 auto;
+ }
+
+ .dashboard-title {
+    text-align: center;
+  }
+
+  .select-container {
+    margin-bottom: 20px;
+  }
+
+  .select-label {
+    display: block; /* Ensure label is on top of the select field */
+    font-size: 16px;
+    color: #00679e; 
+    margin-bottom: 5px; /* Space between label and select field */
+    font-weight: bold;
+  }
+  
+  .select-field {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #00679e;
+    background-color: #ffffff;
+    color: #00679e;
+    outline: none;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .select-field:focus {
+    border-color: #004d80;
+    box-shadow: 0 0 5px rgba(0, 77, 128, 0.3);
+  }
+  
+  .select-field option {
+    padding: 10px;
+  }
+
+  .charts-container-1 {
+    display: grid; /* Enable Grid */
+    grid-template-columns: 1fr auto; /* Create two columns, the second one auto-sized */
+  }
+
+  .charts-container-2 {
+    display: grid; /* Enable Grid */
+    grid-template-columns: 1fr 1fr; /* Create two columns, the second one auto-sized */
+  }

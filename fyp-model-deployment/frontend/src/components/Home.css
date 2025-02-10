@@ -1,0 +1,65 @@
+ .image-container {
+    padding-left: 0px !important;  /* Remove padding */
+    position: relative; /* Set relative positioning to contain the text overlay */
+    width: 100%; /* Ensure the image container takes full width */
+  }
+
+ .banner-image {
+    width: 100.7%;
+    height: 450px;
+    object-fit: cover;
+  }
+  
+  .text-overlay {
+    position: absolute; /* Position the text absolutely within the container */
+    top: 25%; /* Position the text vertically centered */
+    left: 3%; /* Position the text horizontally centered */
+    color: rgb(0, 64, 116); /* Set text color */
+    text-align: center;
+    padding: 20px; /* Add some padding around the text */
+    z-index: 1; /* Ensure the text is on top of the image */
+    border-radius: 5px; /* Optional: Rounded corners */
+    max-width: 55%;
+  }
+
+  .text-overlay h1 {
+    font-weight: bold; /* Makes the text bold */
+  }
+
+  .home-container {
+    max-width: 90%;
+    margin: 0 auto !important;
+  }
+
+  .home-table {
+    margin-bottom: 250px !important; /* Adjust the value as needed */
+  }
+
+  .center-column {
+    text-align: center; /* Centers text horizontally */
+  }
+
+  .heading-margin {
+    margin-top: 5rem; /* Adjust the value as needed */
+  }
+
+  .occupancy-low {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .occupancy-medium {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .occupancy-high {
+    color: red;
+    font-weight: bold;
+  }
+
+  .home-pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -220px;
+  }

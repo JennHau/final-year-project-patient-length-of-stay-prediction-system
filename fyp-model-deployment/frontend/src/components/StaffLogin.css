@@ -1,0 +1,29 @@
+/* Style the container for the login form */
+.login-container {
+    background-color: transparent; /* Light background color */
+    padding: 100px;
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center horizontally */
+}
+
+/* Style the form */
+.login-form {
+    max-width: 500px; /* Maximum width of the form */
+    width: 100%; /* Full width of the container up to max-width */
+    min-height: 380px;
+    padding: 30px; /* Padding inside the form */
+    margin: 10px;
+    background-color: #fff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Adjust spacing between form fields */
+.custom-form-group {
+    margin-bottom: 30px; /* Increase space below each form field */
+}
+
+/* Style the submit button to fit within the form */
+.btn-primary {
+    width: 100%; /* Make button full width */
+}

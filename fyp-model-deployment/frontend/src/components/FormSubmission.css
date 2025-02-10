@@ -1,0 +1,13 @@
+.admission-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.admission-form-control {
+  border-radius: 0.25rem;
+}
+
+.patient-id {
+  background-color: #e9ecef; 
+  cursor: not-allowed; /* Indicate the field is not editable */
+}

@@ -1,0 +1,18 @@
+.donut-chart-container {
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    max-width: 550px; /* Set a maximum width for the container */
+    min-width: 550px;
+    padding: 10px; /* Add padding if necessary */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow to the container */
+    margin-left: 5px !important; /* Move the container to the right */
+    border-radius: 20px !important;
+    overflow: hidden;
+  }
+  
+  .donut-chart {
+    width: 100%; /* Ensure the chart takes up the full width of its container */
+    margin-right: 100px;
+  }
+  

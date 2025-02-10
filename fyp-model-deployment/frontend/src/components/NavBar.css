@@ -1,0 +1,42 @@
+  .custom-nav {
+    display: flex;
+    justify-content: flex-end; /* Pushes the links to the far right */
+    gap: 15px; /* Adds space between the links */
+    width: 92%;
+  }
+  
+  .custom-navbar {
+    background-color: #024b72;
+  }
+
+  .custom-navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 90px;
+    color: #ffffff;
+  }
+
+  .custom-navbar .navbar-brand:hover {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+  /* Change text color on hover */
+  .custom-navbar .nav-link:hover {
+    color: #95d5ff !important; 
+    background-color: transparent;
+  }
+
+  .custom-navbar .nav-link {
+    color: #ffffff;
+    background-color: transparent;
+  }
+
+  .custom-navbar .nav-link.active {
+    color: #ffffff !important; 
+    font-weight: bold;
+    border: transparent;
+    border-bottom: 0.5px solid #ffffff;
+    background: transparent;
+    border-radius: 0%;
+  }
